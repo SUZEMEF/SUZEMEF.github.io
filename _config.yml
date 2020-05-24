@@ -8,7 +8,7 @@ subtitle: 'Just Another Weblog'
 description: ''
 keywords:
 author: SUZEMEF
-language: zh
+language: zh-cn
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -107,20 +107,7 @@ comment:
     client_id: ed6a0a45c5f741024f78     # (required) OAuth application client id
     client_secret: 5c5fedb5df66bc6369ac4fea2bd3f60c0850e090     # (required) OAuth application client secret
 
-search:
-    type: insight
-
-menu:
-    Archives: /archives
-    Categories: /categories
-    About: /about
-
 feed:
     type: atom
     path: atom.xml
     limit: 20
-
-navbar_links:
-  RSS:
-    icon: fas fa-rss
-    url: https://SUZEMEF.github.io/atom.xml
