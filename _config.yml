@@ -101,8 +101,12 @@ deploy:
   type: ''
 
 comment:
-    type: disqus
-    shortname: SUZEMEF
+  type: valine
+  app_id: ntDA6wjf0rnD89w8PlMFlvnJ-MdYXbMMI        # (required) LeanCloud application id
+  app_key: ubI8DQfMobLrHgNNXDRQzPya       # (required) LeanCloud application key
+  notify: false           # (optional) receive email notification
+  verify: false           # (optional) show verification code
+  placeholder: Comments   # (optional) comment box placeholder text
 
         
 feed:
