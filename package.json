@@ -23,6 +23,7 @@
     "hexo-server": "^1.0.0",
     "hexo-renderer-sass": "^0.4.0",
     "cheerio": "^1.0.0-rc.3",
-    "hexo-generator-feed": "^2.2.0"
+    "hexo-generator-feed": "^2.2.0",
+    "hexo-generator-sitemap": "^2.0.0"
   }
 }
