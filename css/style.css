@@ -1,7 +1,31 @@
 @charset "UTF-8";
 body, button, input, select, textarea {
-  font-family: "Ovo", "Georgia", "STZhongsong", "Microsoft YaHei", serif; }
+  font-family: "Lora", "Georgia", "STZhongsong", "Microsoft YaHei", serif; }
 
+/* start */
+body, html {
+  background-color: #18222D;
+  color: #fefefe; }
+
+a {
+  color: #009170; }
+
+a:hover {
+  color: #005240; }
+
+a.navbar-item.is-active, a.navbar-item:hover, a.navbar-link.is-active, a.navbar-link:hover {
+  background-color: #f5f5f5;
+  color: #ffc600; }
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+  color: #ffc600;
+  font-weight: 400;
+  line-height: 1.125; }
+
+.navbar-menu {
+  background-color: #222F3E; }
+
+/* end */
 a.tag.article-tag {
   font-size: 0.9rem;
   text-decoration: none; }
@@ -11,18 +35,19 @@ a.tag.article-tag {
     max-width: 800px;
     width: 800px; }
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
-    color: #3273dc; } }
+    color: #ffc600; } }
 
 .navbar-main {
-  border-bottom: 1px solid #dbdbdb;
-  transition: 0.1s ease-in; }
+  transition: 0.1s ease-in;
+  background-color: #222F3E; }
   .navbar-main .navbar-logo {
-    font-size: 1.5rem;
-    font-weight: 600; }
+    font-family: "Montserrat"; }
   .navbar-main .navbar-item {
-    text-align: center; }
+    text-align: center;
+    color: #C0C0C0;
+    background-color: #222F3E; }
   .navbar-main a.navbar-item.is-active {
-    color: #3273dc; }
+    color: #ffc600; }
   .navbar-main .toc .navbar-dropdown {
     max-height: 500px;
     overflow-y: auto; }
@@ -37,6 +62,8 @@ a.tag.article-tag {
   border-bottom: 1px dotted transparent; }
   .article .article-title a:hover,
   .article .article-meta a:hover {
+    color: #917100;
+    /* add hover color */
     border-bottom-color: black; }
 
 .article .article-meta {
@@ -272,7 +299,7 @@ a.tag.article-tag {
       text-align: center;
       display: inline-block; }
       .searchbox .searchbox-input-wrapper .searchbox-close:hover {
-        color: #3273dc; }
+        color: #ffc600; }
   .searchbox .searchbox-result-wrapper {
     left: 0;
     right: 0;
