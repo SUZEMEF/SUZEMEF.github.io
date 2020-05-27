@@ -21,11 +21,11 @@ tags: hexo
 
 1. 新建一个`username.github.io`仓库，在github的`Settings - Developer settings - Personal access tokens`页面内为Travis CI新建一个github page专用，并赋予repo权限的access token；
    
-2. 使用github账号登陆Travis CI以完成账号关联，将access token作为GH_TOKEN加入到从github同步过去的仓库配置中，并在Travis CI中启用该仓库。
+2. 使用github账号登陆Travis CI以完成账号关联，将access token作为`GH_TOKEN`加入到从github同步过去的仓库配置中，并在Travis CI中启用该仓库。
    
 3. 在本地安装npm、hexo。初始化hexo项目后，为本地项目添加.travis.yml，并完成_config.yml、.gitignore等相关配置；
    
-4. 为`username.github.io`新建一个source分支，将本地项目推送到这个source分支下。最终目的是让Travis CI根据source分支下.travis.yml中的设置的步骤生成静态文件，并把静态文件推送到username.github.io的master分支下。
+4. 为`username.github.io`新建一个`source`分支，将本地项目推送到这个source分支下。最终目的是让Travis CI根据source分支下.travis.yml中的设置的步骤生成静态文件，并把静态文件推送到`username.github.io`的`master`分支下。
    
 这部分的教程其实相当多了，如[1][1]。在实际搭建时，可以根据自己的情况进行调整，并不需要照搬教程。
 
@@ -48,7 +48,7 @@ before_script:
   - git clone https://github.com/username/hexo-theme-themename.git themes/themename
 
 script: 
-  - hexo generate # generate static files
+  - hexo generate
 ```
 
 ## 评论服务选型
@@ -67,7 +67,7 @@ script:
 
 单独为这类评论服务建一个存放issue仓库倒还不是最麻烦的地方，最麻烦的是每篇博文好像都得手动加issue，虽然github也有网友写了脚本完成这一工作，但易用性还是大大降低了。
 
-另外gitment已经停止更新，一些常见问题如[3][3]、[4][4]等只能通过网友提供的各种方案加以解决，这一点也十分劝退我。
+另外gitment已经停止更新，一些常见问题如[object XMLHttpRequestProgressEvent][3]、[hexo上的开启失败][4]等只能通过网友提供的各种方案加以解决，这一点也十分劝退我。
 
 ### isso
 
