@@ -22,6 +22,9 @@ a.navbar-item.is-active, a.navbar-item:hover, a.navbar-link.is-active, a.navbar-
   font-weight: 400;
   line-height: 1.125; }
 
+code {
+  background-color: #282C34; }
+
 .navbar-menu {
   background-color: #222F3E; }
 
@@ -44,7 +47,7 @@ a.tag.article-tag {
     font-family: "Montserrat"; }
   .navbar-main .navbar-item {
     text-align: center;
-    color: #C0C0C0;
+    color: #009170;
     background-color: #222F3E; }
   .navbar-main a.navbar-item.is-active {
     color: #ffc600; }
