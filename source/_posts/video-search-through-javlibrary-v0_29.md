@@ -15,7 +15,7 @@ tags: userscript
 
 它一开始的目的是希望在浏览JAVLibrary页面的时候，能够方便地通过点击链接或按钮的方式，跳转至类似JavBus、JavDB等站点的影片页面或搜索结果页面。从而省去单独访问这些站点之后再搜索番号的操作。
 
-希望试用这个脚本的朋友可以戳[这里][2]。当然,在使用之前需要现在firefox上安装好[Greasemonkey][3]或[Tampermonkey][4]这类附加组件，这部分就不再赘述了。
+希望试用这个脚本的朋友可以戳[这里][2]。当然，在使用之前需要现在firefox上安装好[Greasemonkey][3]或[Tampermonkey][4]这类附加组件，这部分就不再赘述了。
 
 [1]: https://sleazyfork.org/zh-CN/scripts/377603-jav%E5%BF%AB%E6%8D%B7%E8%B7%B3%E8%BD%AC/discussions/53543 "需求"
 [2]: https://sleazyfork.org/zh-CN/scripts/377603-jav%E5%BF%AB%E6%8D%B7%E8%B7%B3%E8%BD%AC "这里"
