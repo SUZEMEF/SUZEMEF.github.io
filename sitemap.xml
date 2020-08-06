@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://suzemef.github.io/2020/05/23/hello-world/</loc>
+    
+    <lastmod>2020-08-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://suzemef.github.io/2020/05/27/the-way-I-build-a-static-blog/</loc>
     
     <lastmod>2020-08-06</lastmod>
@@ -9,7 +16,7 @@
   </url>
   
   <url>
-    <loc>http://suzemef.github.io/2020/05/23/hello-world/</loc>
+    <loc>http://suzemef.github.io/2020/07/04/video-search-through-javlibrary-v0_28/</loc>
     
     <lastmod>2020-08-06</lastmod>
     
@@ -33,6 +40,13 @@
   
   <url>
     <loc>http://suzemef.github.io/tags/hexo/</loc>
+    <lastmod>2020-08-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://suzemef.github.io/tags/userscript/</loc>
     <lastmod>2020-08-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
