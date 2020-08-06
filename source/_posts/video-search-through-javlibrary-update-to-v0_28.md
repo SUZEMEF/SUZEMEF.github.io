@@ -1,5 +1,5 @@
 ---
-title: JAV快捷跳转 v0.28更新
+title: [UserScript]JAV快捷跳转v0.28更新
 date: 2020-07-04 15:30:00
 categories: coding
 tags: userscript
