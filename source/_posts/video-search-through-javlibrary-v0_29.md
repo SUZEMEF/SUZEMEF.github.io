@@ -1,6 +1,6 @@
 ---
 title: [UserScript]JAV快捷跳转v0.29更新
-date: 2020-08-06 15:30:00
+date: 2020-08-06 21:15:00
 categories: coding
 tags: userscript
 ---
