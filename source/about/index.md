@@ -4,6 +4,10 @@ title: 有的没的
 
 希望这次能坚持久一点。
 
+你可以在这些地方找到我：
+https://github.com/SUZEMEF
+https://sleazyfork.org/zh-CN/scripts/377603
+
 ## 更新历史
 
 2020-05-26 调整minos配色及字体。
