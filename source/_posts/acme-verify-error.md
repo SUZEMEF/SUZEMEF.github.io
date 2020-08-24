@@ -1,5 +1,5 @@
 ---
-title: 
+title: acme.sh的Verify error:Invalid response from报错
 date: 2020-08-24 16:49:00
 categories: coding
 tags: VPS 
@@ -8,6 +8,8 @@ tags: VPS
 之前在hostdare购入过一台VPS，速度一般，所以拿来做备胎，乱七八糟部了一些服务在上面，考虑到最低限度的安全，用acme给每个服务都手动生成了一遍证书，还挺麻烦的（当时因为一些原因，通配符证书没能用起来……）。
 
 其中最常用的一个自用服务是freshrss，今天访问时突然发现证书过期了，按说acme是可以自动续期的。查了一下`acme.sh.log`，报了一条这个错误：
+
+<!-- more -->
 
 ```
 [Mon Aug 24 00:09:56 CST 2020] yousite.xyz:Verify error:Invalid response from https://yousite.xyz/.well-known/acme-challenge/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [*.*.*.*]: 404
