@@ -1,5 +1,5 @@
 ---
-title: dy自动点赞
+title: 抖音自动点赞
 date: 2020-11-16 16:04:00
 categories: coding
 tags: android
@@ -7,7 +7,9 @@ tags: android
 
 因为一些主播会把点赞达到多少万作为一项指标，自己又懒得点，所以想把这个工作给自动化。
 
-现在可以搜到的实现基本都是基于adb的，整理了一下相关的教学，写了一个比较完整的在win下实现自动点赞的过程。
+现在可以搜到的实现基本都是基于adb的，这是一个简陋的整合了相关资料的win下的教学。
+
+其原理为：直接使用adb的点击事件速度会不够快，可以通过记录用户操作再输出的方式模拟在dy主播界面快速点击的行为。
 
 <!-- more -->
 
@@ -27,7 +29,7 @@ tags: android
 
     for i in `seq 1 100`; do dd if=/sdcard/recordtap of=/dev/input/event5;sleep 0.1; done 
    
-8. 多开时直接执行nox_adb shell会报 error: more than one device and emulator的错误，这时需要先nox_adb devices查看当前有设备与模拟器
+8. 多开时直接执行nox_adb shell会报 error: more than one device and emulator的错误，这时需要先nox_adb devices查看当前有设备与模拟器：
 
     C:\Program Files (x86)\Nox\bin>nox_adb devices
     List of devices attached
