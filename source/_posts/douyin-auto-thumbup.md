@@ -12,22 +12,32 @@ tags: laptop
 <!-- more -->
 
 1. 下载一个安卓模拟器（本文使用夜神模拟器）并安装，完成安装后在模拟器内安装dy，登录已经关注主播的抖音账号，并进入直播页面
+
 2. 通过命令行进入nox_adb.exe所在目录（命令为默认安装位置）：cd "C:\Program Files (x86)\Nox\bin\"
+
 3. 进入夜神模拟器的adb shell：nox_adb shell
+
 4. 进入shell后，准备记录输入操作到一个新建的recordtap文件内：dd if=/dev/input/event5 of=/sdcard/recordtap，具体是event5或其他（如event1等）可在shell中通过getevent命令查询
+
 5. 回到模拟器的直播页面，在屏幕上重复快速点击
+
 6. 退出adb shell（如快捷键无效，可关掉命令行窗口后重开）
+
 7. 重新进入adb shell，运行命令（此为循环100次版本）：   
+
    ```
    for i in `seq 1 100`; do dd if=/sdcard/recordtap of=/dev/input/event5;sleep 0.1; done
    ```   
+   
 8. 多开时直接执行nox_adb shell会报 error: more than one device and emulator的错误，这时需要先nox_adb devices查看当前有设备与模拟器
+
     ```
     C:\Program Files (x86)\Nox\bin>nox_adb devices
     List of devices attached
     127.0.0.1:62025 device
     127.0.0.1:62001 device
     ```
+    
 9.  在执行adb命令时，为命令指定设备的序列号`nox_adb -s 127.0.0.1:62025 shell`
 
 说明：
