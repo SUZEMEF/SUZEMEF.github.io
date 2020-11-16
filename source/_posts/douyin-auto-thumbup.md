@@ -25,18 +25,18 @@ tags: android
 
 7. 重新进入adb shell，运行命令（此为循环100次版本）：   
 
-   ```
-   for i in `seq 1 100`; do dd if=/sdcard/recordtap of=/dev/input/event5;sleep 0.1; done
-   ```   
+```
+for i in `seq 1 100`; do dd if=/sdcard/recordtap of=/dev/input/event5;sleep 0.1; done
+```   
    
 8. 多开时直接执行nox_adb shell会报 error: more than one device and emulator的错误，这时需要先nox_adb devices查看当前有设备与模拟器
 
-    ```
-    C:\Program Files (x86)\Nox\bin>nox_adb devices
-    List of devices attached
-    127.0.0.1:62025 device
-    127.0.0.1:62001 device
-    ```
+```
+C:\Program Files (x86)\Nox\bin>nox_adb devices
+List of devices attached
+127.0.0.1:62025 device
+127.0.0.1:62001 device
+```
     
 9.  在执行adb命令时，为命令指定设备的序列号`nox_adb -s 127.0.0.1:62025 shell`
 
