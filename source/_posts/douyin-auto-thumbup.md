@@ -2,7 +2,7 @@
 title: dy自动点赞
 date: 2020-11-16 16:04:00
 categories: life
-tags: laptop
+tags: android
 ---
 
 因为一些主播会把点赞达到多少万作为一项指标，自己又懒得点，所以想把这个工作给自动化。
