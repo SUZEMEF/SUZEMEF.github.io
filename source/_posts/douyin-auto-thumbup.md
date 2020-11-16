@@ -1,7 +1,7 @@
 ---
 title: dy自动点赞
 date: 2020-11-16 16:04:00
-categories: life
+categories: coding
 tags: android
 ---
 
