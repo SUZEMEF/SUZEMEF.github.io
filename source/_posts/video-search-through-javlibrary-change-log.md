@@ -1,10 +1,10 @@
 ---
-title: Jav快捷跳转：历史版本
+title: 快捷跳转：历史版本
 date: 2020-09-27 10:15:00
 categories: coding
 tags: userscript
 ---
-为了便于直观的查看更新记录，今后会在这里维护一份[Jav快捷跳转](https://sleazyfork.org/zh-CN/scripts/377603)的[Changelog](https://keepachangelog.com/en/1.0.0/)。
+为了便于直观的查看更新记录，今后会在这里维护一份[快捷跳转](https://sleazyfork.org/zh-CN/scripts/377603)的[Changelog](https://keepachangelog.com/en/1.0.0/)。
 
 <!-- more -->
 ## Changelog
