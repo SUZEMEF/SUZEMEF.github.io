@@ -115,5 +115,5 @@ feed:
     limit: 20
 
 sitemap:
-    patch: sitemap.xml
+    path: sitemap.xml
  
